@@ -17,13 +17,28 @@ const Strangerthings = () => {
 
   return (
     
-      <div>
-      <h1>Stranger Things Characters</h1>
-      <ul>
-        {Object.values(role).map((name, index) => (
-          <li key={index}>{name}</li>
-        ))}
-      </ul>
+    //   <div>
+    //   <h1>Stranger Things Characters</h1>
+    //   <ul>
+    //     {Object.values(role).map((name, index) => (
+    //       <li key={index}>{name}</li>
+    //     ))}
+    //   </ul>
+    // </div>
+
+    <div>
+        <h1>===Stranger Things Characters===</h1>
+        <h4>Character_Name = {role.Character_Name0}</h4>
+        <h4>Character_Name = {role.Character_Name1}</h4>
+        <h4>Character_Name = {role.Character_Name2}</h4>
+        <h4>Character_Name = {role.Character_Name3}</h4>
+        <h4>Character_Name = {role.Character_Name4}</h4>
+        <h4>Character_Name = {role.Character_Name5}</h4>
+        <h4>Character_Name = {role.Character_Name6}</h4>
+        <h4>Character_Name = {role.Character_Name7}</h4>
+        <h4>Character_Name = {role.Character_Name8}</h4>
+        <h4>Character_Name = {role.Character_Name9}</h4>
+        <h4>Character_Name = {role.Character_Name10}</h4>
     </div>
   )
 }
