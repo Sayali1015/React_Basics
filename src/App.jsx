@@ -1,13 +1,20 @@
 import React from 'react'
-import Person from './Person'
-import Strangerthings from './Strangerthings'
-
+import Person from './components/Person'
+import Strangerthings from './components/Strangerthings'
+import { Test} from './components/Test'
+import Product from './components/Product'
 const App = () => {
   
   return (
     <>
-    <Person/>
-    <Strangerthings/>
+    {/* <h1>App is an entry point</h1> */}
+    {/* <Person/> */}
+    {/* <Strangerthings/> */}
+    {/* <Test/> */}
+    <Product/>
+    <Product/>
+    <Product/>
+
     </>
   )
 };
