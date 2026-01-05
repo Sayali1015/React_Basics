@@ -11,9 +11,15 @@ const App = () => {
     {/* <Person/> */}
     {/* <Strangerthings/> */}
     {/* <Test/> */}
-    <Product/>
-    <Product/>
-    <Product/>
+
+    <Product title = "Galaxy S24 Ultra" color = "black" brand = "Samsung" 
+    prize ={150000} ram = "8GB" rom = "128 GB" camera = "200 MP"/>
+
+    <Product title = "Iphone 16 Pro" color = "Golden" brand = "Apple" 
+    prize ={250000} fingerprint = "Yes"/>
+  
+    <Product title = "One Plus" color = "White" brand = "OnePlus" 
+    prize ={34000}/>
 
     </>
   )
