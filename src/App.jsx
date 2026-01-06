@@ -36,7 +36,7 @@ const App = () => {
 </div> */}
 
 <div>
-    <Person3 name= "Durvesh Shinde" age= {10}/>
+    <Person3 name= "Durvesh Shinde" age= {22} pancard = {true} />
 </div>
 
 
