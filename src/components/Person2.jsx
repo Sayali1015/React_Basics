@@ -7,7 +7,7 @@ const Person2 = ({name, MobileNumber, Gmail, pincode, ram}) => {
       <h3>MobileNumber = {MobileNumber}</h3>
       <h3>Gmail = {Gmail}</h3>
       <h3>Pincode = {pincode}</h3>
-      <h1>Ram = {ram}</h1>
+      
 
     </div>
   )

@@ -5,6 +5,7 @@ import { Test} from './components/Test'
 import Product from './components/Product'
 import Person2 from './components/Person2'
 import Person3 from './components/Person3'
+import Laptop from './components/Laptop'
 
 
 const App = () => {
@@ -32,12 +33,20 @@ const App = () => {
 {/* <div>
     <Person2 name= "Sayali Rajwade" MobileNumber= {9021628100} Gmail= "sayalirajwade077@gmail.com" pincode = {411017}/>
     <Person2 name= "Kunal Rajwade" MobileNumber= {7498853712} Gmail= "kunalrajwade09@gmail.com" pincode = {411018}/>
-    <Person2 name= "Om Gaikwad" MobileNumber= {9763121262} Gmail= "omgaikwad12@gmail.com" pincode = {411003} ram = "sita"/>
+    <Person2 name= "Om Gaikwad" MobileNumber= {9763121262} Gmail= "omgaikwad12@gmail.com" pincode = {411003}/>
 </div> */}
 
-<div>
+{/* <div>
     <Person3 name= "Durvesh Shinde" age= {22} pancard = {true} />
-</div>
+</div> */}
+
+
+<Laptop brand = "Asus" price = {67000} colour = "Black" weight = "2kg"/>
+<Laptop brand = "HP" price = {70000} colour = "Silver" weight = "2.5kg"/>
+<Laptop brand = "Dell" price = {65000} colour = "Blue" weight = "1.5kg"/>
+
+
+
 
 
     </>
