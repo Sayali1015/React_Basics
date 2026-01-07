@@ -1,16 +1,62 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> This project is built using React + Vite for faster development and hot module replacement.
 
-Currently, two official plugins are available:
+# React Basics with Hooks 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository covers **React fundamentals** with a strong focus on **React Hooks**, followed by a hands-on project called **Movie Zone**.  
+It is designed for beginners to understand modern React concepts through practical implementation.
 
-## React Compiler
+---
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 📌 Topics Covered
 
-## Expanding the ESLint configuration
+- React Project Setup
+- JSX Basics
+- Components (Functional Components)
+- Props
+- State Management using `useState`
+- Side Effects using `useEffect`
+- Conditional Rendering
+- Event Handling
+- List Rendering
+- Component Reusability
+- Basic Styling with CSS
+- Search & Filter Logic
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚛️ React Hooks Used
+
+- **useState** – To manage component state
+- **useEffect** – To handle side effects like API calls
+- **Custom Logic using Hooks** – Clean and reusable code
+
+---
+
+## 🎬 Movie Zone Project
+
+**Movie Zone** is a React-based movie listing application built using hooks.
+
+### 🔹 Features
+- Display list of movies
+- Search movies by name
+- Filter movies by rating/category
+- Dynamic UI updates using React state
+- Component-based architecture
+- Clean and beginner-friendly code structure
+
+---
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Git & GitHub
+
+---
+
+
+
