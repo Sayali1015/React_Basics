@@ -8,6 +8,7 @@ import Person3 from './components/Person3'
 import Laptop from './components/Laptop'
 import Events from './components/Events'
 import Counter from './components/Counter'
+import Showproducts from './components/Showproducts'
 
 const App = () => {
   return (
@@ -49,8 +50,12 @@ const App = () => {
       <Events/>
     </div> */}
 
-    <div>
+    {/* <div>
       <Counter/>
+    </div> */}
+
+    <div>
+      <Showproducts/>
     </div>
 
 
