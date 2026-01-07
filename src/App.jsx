@@ -8,7 +8,7 @@ import Person3 from './components/Person3'
 import Laptop from './components/Laptop'
 import Events from './components/Events'
 import Counter from './components/Counter'
-import Showproducts from './components/Showproducts'
+import Showproducts from './components/MapProducts'
 
 const App = () => {
   return (
