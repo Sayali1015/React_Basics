@@ -6,7 +6,8 @@ const FilterProduct = () => {
         {id:2, title: 'Asus', category: 'Laptop', price: 100000},
         {id:3, title: 'Mi', category: 'Tablet', price: 20000},
         {id:4, title: 'Boat', category: 'Speaker', price: 30000},
-         {id:5, title:'HP', category: 'Laptop', price: 480000}
+         {id:5, title:'HP', category: 'Laptop', price: 480000},
+         {id:6, title: 'Boat', category: 'HeadPhone', price: 2000},
 
     ]
     const filtereddata = product.filter((data)=>data.category == 'Laptop')
