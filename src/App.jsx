@@ -1,5 +1,6 @@
-import UseEffect from "./components/UseEffect";
+// import UseEffect from "./components/UseEffect";
 import  Movies from "./MovieZone/Movies";
+import Fetch_Data_API from "./components/Fetch_Data_API";
 
 const App = () => {
   
@@ -8,7 +9,8 @@ const App = () => {
   <>
 
   {/* <Movies/> */}
-  <UseEffect/>
+  {/* <UseEffect/> */}
+  <Fetch_Data_API/>
 
   </>
   );
