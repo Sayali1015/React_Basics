@@ -33,3 +33,7 @@ body::-webkit-scrollbar{
 button{
   font-weight: bolder !important;
 }
+
+div{
+  margin: 10px;
+}
