@@ -2,7 +2,8 @@
 import  Movies from "./MovieZone/Movies";
 // import Fetch_Data_API from "./components/Fetch_Data_API";
 // import Form from "./components/Form";
-import Multiple_Input_Handling from "./components/Multiple_Input_Handling";
+// import Multiple_Input_Handling from "./components/Multiple_Input_Handling";
+import Meal from "./Food_Recipe/Meal";
 
 const App = () => {
   
@@ -14,7 +15,8 @@ const App = () => {
   {/* <UseEffect/> */}
   {/* <Fetch_Data_API/> */}
   {/* <Form/> */}
-  <Multiple_Input_Handling/>
+  {/* <Multiple_Input_Handling/> */}
+  <Meal/>
 
   </>
   );
