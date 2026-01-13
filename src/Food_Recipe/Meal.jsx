@@ -16,12 +16,12 @@ const Meal = () => {
   }, [])
   
   return (
-    <div>
-      {mealData.map((data)=><div key = {data.idMeal}>
+    <div style={{display:'flex', justifyContent: 'center', alignContent:'center', flexWrap:'wrapg'}}>
+      {mealData.map((data)=><div key = {data.idMeal} style={{textAlign: 'center'}}>
         <div>
-          <img src={data.strMealThumb} alt="" />
+          <img src={data.strMealThumb} alt="" style={{width:'220px', borderRadius:'10px', border: '2px solid blue'}} />
         </div>
-        <h3>{data.strMeal}</h3>
+        <h5>{data.strMeal}</h5>
       </div>)}
     </div>
   )
