@@ -5,11 +5,11 @@ import Team from './Pages/Team';
 import Contact from './Pages/Contact';
 import Product from './Pages/Product';
 // import UseEffect from "./components/UseEffect";
-// import  Movies from "./MovieZone/Movies";
+import  Movies from "./MovieZone/Movies";
 // import Fetch_Data_API from "./components/Fetch_Data_API";
 // import Form from "./components/Form";
 // import Multiple_Input_Handling from "./components/Multiple_Input_Handling";
-// import Meal from "./Food_Recipe/Meal";
+import Meal from "./Food_Recipe/Meal";
 
 const App = () => {
   
@@ -23,6 +23,10 @@ const App = () => {
     <Route  path = "/team" element={<Team />}/>
     <Route  path = "/contact" element={<Contact />}/>
     <Route  path = "/product" element={<Product />}/>
+    <Route  path = "/movies" element={<Movies />}/>
+    <Route  path = "/meal" element={<Meal />}/>
+
+    
 
   </Routes>
 </Router>
