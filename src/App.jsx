@@ -4,6 +4,7 @@ import About from './Pages/About';
 import Team from './Pages/Team';
 import Contact from './Pages/Contact';
 import Product from './Pages/Product';
+import Course_Detail from './Pages/Course_Detail';
 // import UseEffect from "./components/UseEffect";
 import  Movies from "./MovieZone/Movies";
 // import Fetch_Data_API from "./components/Fetch_Data_API";
@@ -22,7 +23,9 @@ const App = () => {
     <Route  path = "/about" element={<About />}/>
     <Route  path = "/team" element={<Team />}/>
     <Route  path = "/contact" element={<Contact />}/>
-    <Route  path = "/product" element={<Product />}/>
+    <Route  path = "/courses" element={<Product />}/>
+    <Route  path = "/courses/:id" element={<Course_Detail />}/> 
+
     <Route  path = "/movies" element={<Movies />}/>
     <Route  path = "/meal" element={<Meal />}/>
 
