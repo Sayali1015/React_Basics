@@ -1,0 +1,13 @@
+input{
+    width: 20rem;
+    background-color: lemonchiffon;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+input:focus{
+    outline: none;
+}
