@@ -7,7 +7,7 @@ const Product = () => {
         {id:'PYTHON003',cousre_name:'Python_Full_Stack',price: 40000 ,duration:'5 months'},
         {id:'REACT004',cousre_name:'Reacts_JS',price: 40000 ,duration:'5 months'},
 
-    ]
+    ];
   return (
     <div>
       <ul>
