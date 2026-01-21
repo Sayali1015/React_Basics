@@ -12,6 +12,8 @@ import  Movies from "./MovieZone/Movies";
 // import Multiple_Input_Handling from "./components/Multiple_Input_Handling";
 import Meal from "./Food_Recipe/Meal";
 import Navbar  from './components/Navbar';
+import Dashboard from './Pages/Dashboard';
+import Profile from './Pages/Profile';
 
 const App = () => {
   return (
@@ -27,6 +29,9 @@ const App = () => {
     <Route  path = "/courses/:id" element={<Course_Detail />}/>
     <Route  path = "/movies" element={<Movies />}/>
     <Route  path = "/meal" element={<Meal />}/>
+    <Route path = "/dashboard" element={<Dashboard/>}/>
+    <Route path = "/profile" element={<Profile/>}/>
+
   </Routes>
 </Router>
   {/* <Movies/> */}
