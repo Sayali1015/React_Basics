@@ -14,14 +14,22 @@ import Meal from "./Food_Recipe/Meal";
 import Navbar  from './components/Navbar';
 import Dashboard from './Pages/Dashboard';
 import Profile from './Pages/Profile';
+import IndianGov from './Home/IndianGov';
+import StateGov from './Home/StateGov';
+import Distric from './Home/Distric';
+import Block from './Home/Block';
+import Panchayat from './Home/Panchayat';
+import People from './Home/People';
+
 
 const App = () => {
+  const money = 1000;
   return (
   <>
 <Router>
   <Navbar />
   <Routes>
-    <Route  path = "/" element={<Home />}/>
+    <Route  path = "/" element={<IndianGov  money={money}/>}/>
     <Route  path = "/about" element={<About />}/>
     <Route  path = "/team" element={<Team />}/>
     <Route  path = "/contact" element={<Contact />}/>
